@@ -1,0 +1,7 @@
+train: C:/Side_projects/AmISlackingOff/datasets/train/images
+val: C:/Side_projects/AmISlackingOff/datasets/val/images
+#test: ../test/images
+
+nc: 2
+names: ['Slacking off', 'Working']
+#names: ['Working', 'Slacking off']

@@ -1,0 +1,4 @@
+recordings/
+data*/
+runs/
+*.pt
