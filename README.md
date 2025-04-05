@@ -28,7 +28,7 @@ This project uses computer vision to detect whether a person is slacking off or 
 - Make sure to export in YOLO format.
 
 ### 3. Model Training
-- The project uses YOLO11n for training
+- The project uses YOLO11n for real-time inference on webcam
 - Training configuration is specified in `data.yaml`
 - Make sure to split the data into training and validation before.
 - Run the training with (example):
@@ -67,13 +67,13 @@ This project uses computer vision to detect whether a person is slacking off or 
 ## Project Structure
 ```
 .
-├── data/                  # Training data directory
+├── data/                 # Training data directory
 ├── datasets/             # Dataset storage
+ └── data.yaml            # Training configuration
 ├── recordings/           # Recorded video data
 ├── runs/                 # Training results and model weights
 ├── utils/                # Utility scripts
 │   └── collect_data.py   # Data collection script
 ├── test_trained_model.py # Model testing script
-├── data.yaml            # Training configuration
-└── requirements.txt     # Project dependencies
+└── requirements.txt      # Project dependencies
 ```
