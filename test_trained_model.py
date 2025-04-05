@@ -12,7 +12,7 @@ def play_alarm(duration=3000):
 
 def test_model():
     # Load your trained model
-    model = YOLO('runs/detect/train2/weights/best.pt')  # adjust path if needed
+    model = YOLO('runs/detect/train/weights/best.pt')  # adjust path if needed
     print("Model loaded successfully!")
 
     # Initialize webcam

@@ -1,11 +1,8 @@
 import os
 import cv2
 import time
-import uuid
 import argparse
-import numpy as np
 import re
-from pathlib import Path
 from datetime import datetime
 
 def create_directories():
